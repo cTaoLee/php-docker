@@ -1,6 +1,9 @@
 # php-docker
 php的docker开发环境，可参照着快速搭建自己的docker开发环境
 
+## 使用
+进入`build`目录，使用 `docker-compose up -d`
+
 ## composer 的用法
 直接进 `build` 目录，使用 `docker-compose exec php composer` 就可以使用了，因为 docker-compose.yaml 中设置了工作目录为 www 目录，安装后的 vender 也会在 www 目录下
 
